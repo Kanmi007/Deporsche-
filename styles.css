@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+   background: linear-gradient(to bottom, rgb(253, 253, 253), rgb(195, 254, 204) );
+   height: 60vh;
+}
+
+nav {
+    padding-block: 1rem;
+    background-color: #fff;
+}
+ 
+.innerNav {
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+    
+.genLayout {
+    max-width: 1200px;
+    margin: auto;
+}
+
+#toggle, .hamburger{
+    display: none;
+}
+
+.navRight {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navRight > h5 {
+font-family: "Source Code Pro", monospace;
+font-size: 15px;
+font-weight: 700;
+}
+
+.navRight > .hPro {
+    font-family: "Open Sans", sans-serif;
+}
+
+.navRight > .hPro > span {
+font-weight: 400;
+}
+
+.navRight > i {
+    color: rgb(76, 232, 100);
+}
+
+.navLink {
+    font-family: "Source Code Pro", monospace;
+    font-style: 15px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+
+.navLink > span > i {
+    color: rgb(76, 232, 100);
+}
+
+
+.navLink > button {
+    font-family: "Source Code Pro", monospace;
+    font-size: 15px;
+    font-weight: 700;
+    /* background-color:rgb(76, 232, 100); */
+    border-radius: 8px;
+    height: 50px;
+    width: 110px;
+    margin-left: 20px;
+    color: rgb(76, 232, 100);
+    border: none;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(76, 232, 100, 0.3);
+}
+
+.genLayout {
+     max-width: 1200px;
+    margin: auto;
+}
+
+.hero {
+    font-family: "Source Code Pro", monospace;
+}
+
+.heroContent {
+    border: solid black;
+    margin: 3.5rem;
+}
+
+.heroContent > h1 {
+    color: rgb(1, 45, 1);
+    text-decoration: none;
+    /* text-transform: capitalize; */
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.heroContent > p {
+    font-size: 13px;
+}
+
+.searchHero {
+    font-family: "Source Code Pro", monospace;
+    background: white;
+    border-radius: 15px;
+    padding: 25px;
+    width: 700px;
+    margin-top: 30px;
+    /* height: 200px; */
+}
+
+.searchHero > button {
+    background: none;
+    border: none;
+    padding: 8px 15px;
+    font-weight: 600;
+    font-size: 10px;  
+}
+
+.searchHero > .tabBtn {
+    color: rgb(76, 232, 100);
+}
+
+.searchBar {
+    display: flex;
+    align-items: center;
+}
+
+.searchBar > i {
+    color: rgb(76, 232, 100);
+}
+
+.searchBar > ::placeholder {
+    font-family: "Open Sans", sans-serif;
+    color: rgb(1, 45, 1);
+    font-weight: 100;
+    font-size: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
