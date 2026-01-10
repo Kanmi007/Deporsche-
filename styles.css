@@ -5,27 +5,22 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-header {
-   background: linear-gradient(to bottom, rgb(253, 253, 253), rgb(195, 254, 204) );
-   height: 70vh;
-}
-
 nav {
     padding-block: 1rem;
     background-color: #fff;
-    margin-top: -50px;
+    margin-bottom: -50px;
+    margin-top: -58px;
+    margin-left: 25rem;
 }
 
 .logoP > img {
-    width: 135px;
-    height: 20%;
+    width: 138px;
+    /* height: 20%; */
     border-radius: 3px;
-    margin-left: -35px;
+    margin-left: -22.5rem;
 }
  
 .innerNav {
-    /* border: 1px solid black; */
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -33,7 +28,7 @@ nav {
 }
     
 .genLayout {
-    max-width: 1200px;
+    max-width: 1000px;
     margin: auto;
 }
 
@@ -45,12 +40,13 @@ nav {
     display: flex;
     align-items: center;
     gap: 10px;
+    margin-left: -19rem;
 }
 
 .navRight > h5 {
 color:rgb(16, 112, 16);
 font-family: "Source Code Pro", monospace;
-font-size: 15px;
+font-size: 12px;
 font-weight: 700;
 }
 
@@ -69,51 +65,54 @@ font-weight: 400;
 
 .navLink {
     font-family: "Source Code Pro", monospace;
-    font-style: 15px;
+    font-style: 12px;
     font-weight: 700;
     text-transform: capitalize;
+    border: 1px solid black;
 }
+
 
 
 .navLink > span {
    color:rgb(16, 112, 16);
+   font-family: "Source Code Pro", monospace;
+   font-size: 12px;
 }
 
 
 .navLink > button {
     font-family: "Source Code Pro", monospace;
-    font-size: 15px;
+    font-size: 12px;
     font-weight: 700;
-    /* background-color:rgb(76, 232, 100); */
     border-radius: 8px;
-    height: 50px;
-    width: 110px;
-    margin-left: 20px;
+    height: 40px;
+    width: 100px;
     color:rgb(16, 112, 16);
     border: none;
     background-color: #fff;
     box-shadow: 0 4px 10px rgba(76, 232, 100, 0.3);
 }
 
-.genLayout {
-     max-width: 1200px;
-    margin: auto;
+main {
+    background: linear-gradient(to bottom, rgb(253, 253, 253), rgb(195, 254, 204) );
+   height: 40vh;
 }
+
 
 .hero {
     font-family: "Source Code Pro", monospace;
-    margin-top: -20px;
+
 }
 
-.heroContent {
-    /* border: solid black; */
-    margin: 3.5rem;
+.genLayout {
+     max-width: 1000px;
+    margin: auto;
 }
+
 
 .heroContent > h1 {
     color:rgb(16, 112, 16);
     text-decoration: none;
-    /* text-transform: capitalize; */
     font-size: 2rem;
     margin-bottom: 10px;
 }
@@ -127,7 +126,7 @@ font-weight: 400;
     background: white;
     border-radius: 15px;
     padding: 25px;
-    width: 700px;
+    width: 550px;
     margin-top: 30px;
     /* height: 200px; */
 }
@@ -202,8 +201,8 @@ color: rgb(102, 107, 102);
 
 .heroCar > img {
     position: absolute;
-    right: -100px;
-    bottom: -265px;
+    right: -50px;
+    bottom: -250px;
     width: 34%;
     border-radius: 30%;
     padding: 20px;
