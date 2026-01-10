@@ -8,19 +8,28 @@
 
 header {
    background: linear-gradient(to bottom, rgb(253, 253, 253), rgb(195, 254, 204) );
-   height: 60vh;
+   height: 70vh;
 }
 
 nav {
     padding-block: 1rem;
     background-color: #fff;
+    margin-top: -50px;
+}
+
+.logoP > img {
+    width: 135px;
+    height: 20%;
+    border-radius: 3px;
+    margin-left: -35px;
 }
  
 .innerNav {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     align-items: center;
     justify-content: space-around;
+    /* padding: 10px 20px; */
 }
     
 .genLayout {
@@ -39,6 +48,7 @@ nav {
 }
 
 .navRight > h5 {
+color:rgb(16, 112, 16);
 font-family: "Source Code Pro", monospace;
 font-size: 15px;
 font-weight: 700;
@@ -53,7 +63,8 @@ font-weight: 400;
 }
 
 .navRight > i {
-    color: rgb(76, 232, 100);
+  color:  rgb(76, 232, 100);
+
 }
 
 .navLink {
@@ -64,8 +75,8 @@ font-weight: 400;
 }
 
 
-.navLink > span > i {
-    color: rgb(76, 232, 100);
+.navLink > span {
+   color:rgb(16, 112, 16);
 }
 
 
@@ -78,7 +89,7 @@ font-weight: 400;
     height: 50px;
     width: 110px;
     margin-left: 20px;
-    color: rgb(76, 232, 100);
+    color:rgb(16, 112, 16);
     border: none;
     background-color: #fff;
     box-shadow: 0 4px 10px rgba(76, 232, 100, 0.3);
@@ -91,15 +102,16 @@ font-weight: 400;
 
 .hero {
     font-family: "Source Code Pro", monospace;
+    margin-top: -20px;
 }
 
 .heroContent {
-    border: solid black;
+    /* border: solid black; */
     margin: 3.5rem;
 }
 
 .heroContent > h1 {
-    color: rgb(1, 45, 1);
+    color:rgb(16, 112, 16);
     text-decoration: none;
     /* text-transform: capitalize; */
     font-size: 2rem;
@@ -111,7 +123,7 @@ font-weight: 400;
 }
 
 .searchHero {
-    font-family: "Source Code Pro", monospace;
+    /* font-family: "Source Code Pro", monospace; */
     background: white;
     border-radius: 15px;
     padding: 25px;
@@ -121,6 +133,7 @@ font-weight: 400;
 }
 
 .searchHero > button {
+    font-family: "Source Code Pro", monospace;
     background: none;
     border: none;
     padding: 8px 15px;
@@ -129,24 +142,80 @@ font-weight: 400;
 }
 
 .searchHero > .tabBtn {
-    color: rgb(76, 232, 100);
+    color: rgb(16, 112, 16);
+    background: rgb(225, 250, 229);
+    border-radius: 10px;
+    margin-bottom: 20px;
+
 }
 
+.searchHero > .tabBtn1 {
+color: rgb(102, 107, 102);
+}
+
+
 .searchBar {
+    /* border: 2px solid red; */
     display: flex;
+    justify-content: space-between;
     align-items: center;
+    margin-block: 1.7 rem;
+    width: 450px;
+    border-radius: 8px;
+    gap: 10px;
 }
 
 .searchBar > i {
-    color: rgb(76, 232, 100);
+    color:  rgb(76, 232, 100);
+    /* border: solid black; */
 }
 
-.searchBar > ::placeholder {
+.searchBar > i > input {
+    border: none;
+    outline: none;
+    text-transform: capitalize;
+    background-color: rgb(16, 112, 16);
+    padding: 12px;
     font-family: "Open Sans", sans-serif;
-    color: rgb(1, 45, 1);
-    font-weight: 100;
-    font-size: 10px;
+    font-weight: 200;
+    font-size: 11px;
+    padding: 0.4rem 5.3rem;
+    background-color:  rgb(229, 252, 232);
 }
+
+::placeholder {
+ color: rgb(16, 112, 16);
+}
+
+.searchBar > button {
+    background: rgb(16, 112, 16) ;
+    color:#fff;
+    border: none;
+    text-transform: capitalize;
+    padding: 0.8rem 1rem;
+    border-radius: 10px;
+}
+
+.heroCar {
+    position: relative;
+}
+
+.heroCar > img {
+    position: absolute;
+    right: -100px;
+    bottom: -265px;
+    width: 34%;
+    border-radius: 30%;
+    padding: 20px;
+    mix-blend-mode: multiply;
+}
+
+
+
+
+
+
+
 
 
 
