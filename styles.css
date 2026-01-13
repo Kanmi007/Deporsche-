@@ -477,10 +477,24 @@ width: 8px;
     box-shadow: 0 4px 10px rgba(76, 232, 100, 0.3);
 }
 
+.interiorSection {
+    font-family: "Source Code Pro", monospace;
+}
+
+.interiorSection > h2 {
+    /* padding: 50px; */
+    margin-left: 400px ;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: rgb(16, 112, 16) ;
+}
+
 .firstimgContent {
+
     display: flex;
     position: relative;
     justify-content: space-evenly;
+    font-family: "Source Code Pro", monospace;
 }
 
 .carsImage {
@@ -491,6 +505,7 @@ width: 8px;
     width: 260px;
     height: 190px;
     padding: 10px;
+    border-radius: 10%;
 }
 
 .badge{
@@ -524,28 +539,45 @@ width: 8px;
 .logoCars {
     position: absolute;
     top: 200px;
-    left: 100px;
+    left: -30px;
     display: flex;
     justify-content: space-between;
-    gap: 200px;
+    gap: 216px;
     margin-left: 25px;
+    padding-left: -40px;
 }
 
 .logoCars > img {
-    width: 45px;
+    width: 60px;
+    /* height: 60px; */
+}
+
+.logoCars > .logL {
+    margin-left: -20px;
 }
 
 .logoCars > .logK {
+    margin-left: -20px;
 }
 
 .reviewUP {
-    top: 230px;
     position: absolute;
-    right: 200px;
+    top: 230px;
+    right: 80px;
     display: flex;
-    justify-content: space-between;
-    gap: 200px;
-    filter:hue-rotate(100deg) brightness(0.7) saturate(.7) contrast(2.5); 
+    /* justify-content: space-between; */
+    gap: 225px;
+    margin-left: 25px;
+    padding-left: -50px;
+    filter:hue-rotate(100deg) brightness(0.7) saturate(.7) contrast(2.5);
+}
+
+.reviewUP > .revP {
+    margin-left: -20px;
+}
+
+.reviewUP > .revS {
+    margin-left: -10px;
 }
 
 .reviewUP > img {
@@ -553,15 +585,94 @@ width: 8px;
 }
 
 .letterP {
-   display: flex;
    position: absolute;
-   top: 150px;
+    top: 10px;
+    right: -80px;
+    display: flex;
+    gap: 220px;
+    font-size: 13px;
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+}
 
+.letterP > p:first-child {
+    margin-right: -50px;
+}
+
+.letterP > p:last-child {
+    margin-left: -10px;
+}
+
+letterP > p:nth-child(2) {
+    margin-right: 40px;
+}
+
+
+.letterP > p:nth-child(3) {
+ margin-left: -30px;
 }
 
 .theH{
+   position: absolute;
+    bottom: -145px;
+    left: -30px;
     display: flex;
-    position: absolute;
-    top: 130px;
+    gap: 120px;
+    margin-left: 25px;
 }
+
+.theH > button {
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 8px;
+    height: 25px;
+    width: 150px;
+    color:#e9792f;
+    border: none;
+    background-color: rgb(247, 199, 172);
+} 
+
+
+.theH > button:nth-child(3){
+    margin-left: -4px;
+    background-color: rgb(193, 245, 193) ;
+    color: rgb(16, 112, 16) ;
+}
+
+.theH > button:last-child {
+   margin-left: -13px; 
+   background-color: rgb(193, 245, 193) ;
+   color: rgb(16, 112, 16) ;
+}
+
+.pr {
+    margin-top: 200px;
+}
+
+.theHp{
+   position: absolute;
+    bottom: -145px;
+    left: -30px;
+    display: flex;
+    gap: 120px;
+    margin-left: 25px;
+}
+
+ .theHp > button {
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 8px;
+    height: 25px;
+    width: 150px;
+    background-color: rgb(193, 245, 193) ;
+   color: rgb(16, 112, 16) ;
+    border: none;
+}
+
+
+    
+
 
