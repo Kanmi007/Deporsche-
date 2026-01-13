@@ -209,6 +209,10 @@ color: rgb(102, 107, 102);
     mix-blend-mode: multiply;
 }
 
+/* .mainR{
+background-color: #fff;
+} */
+
 .carOffers {
     padding-top: 95px;
     padding-bottom: 60px;
@@ -230,7 +234,7 @@ color: rgb(102, 107, 102);
    border: 1px solid rgb(16, 112, 16);
 }
 
-.discountContent {
+/* .discountContent {
     display: flex;
     position: relative;
     color: rgb(252, 252, 252);
@@ -255,6 +259,17 @@ color: rgb(102, 107, 102);
     top: -26px;
     left: 60px;
     font-size: 13px;
+} */
+
+.discountContent {
+    filter:hue-rotate(100deg) brightness(0.7) saturate(.7) contrast(2.5);
+}
+
+.discountContent > img {
+ position: absolute;
+border-bottom-left-radius: 10px;
+bottom: 4px;
+left: 1px;
 }
 
 .blueLambo > img {
@@ -294,33 +309,259 @@ color: rgb(102, 107, 102);
     border-radius: 8px;
 }
 
+.mainG {
+    background: linear-gradient(to top, rgb(228, 245, 233), rgb(247, 250, 248) );
+    height: 50vh;
+}
 
+.workBg {
+    width: 100%;
+    font-family: "Source Code Pro", monospace;
+}
 
+.howItWork > h2 {
+    padding: 30px;
+    margin-left: 20rem;
+    color: rgb(16, 112, 16) ;
+}
 
+.itemWork{
+ filter:hue-rotate(100deg) brightness(0.7) saturate(.7) contrast(2.5);
+ /* border: solid black; */
+}
 
+.locationWork {
+   display: flex;
+   justify-content: space-evenly;
+   /* border: solid black; */
+}
+.locationWork > img {
+   width: 150px;
+}
 
+.locationWork > img:first-child{
+height: 120px;
+width: 85px;
+padding-top: -20px;
+margin-top: 15px;
+}
 
+.thinkK {
+    font-size: 10px;
+    display: flex;
+    gap: 90px;
+    padding: 10px;
+    margin-left: 10px;
+    color: #9E9E9E ;
+    font-weight: 300;
+}
 
+.thinkK > p:first-child {
+   padding-left: 40px;
+}
 
+.thinkK > p:nth-child(2) {
+ margin-left: -40px;
+ /* width: 30%; */
+}
+.thinkK > p:nth-child(3) {
+ margin-left: -55px;
+}
+.thinkK > p:nth-child(4) {
+margin-right: 70px;
+/* width: 30%; */
+}
 
+.orderK{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: -40px;
+    margin-top: -28px;
+    align-items: center;
+}
 
+.orderK > h5:first-child {
+    margin-left: -26px;
+}
 
+.orderK > h5:last-child {
+ margin-right: -43px;
+}
 
+.orderK > h5:nth-child(2) {
+    margin-left: -40px;
+}
 
+.popularItem {
+ font-family: "Source Code Pro", monospace;
+}
 
+.popularText {
+    margin-left: 400px;
+    margin-top: 50px;
+}
 
+.popularText {
+    font-size: 20px;
+    font-weight: 800;
+    color: rgb(16, 112, 16) ;
+}
 
+.popularImg {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    height: 40vh;
+}
 
+.popularImg > img {
+    width: 100px;
+    margin-top: -50px;
+    margin-left: -25px;
+    filter:hue-rotate(100deg) brightness(0.7) saturate(.7) contrast(2.5);
+}
 
+.mine {
+margin-left: -5px;
+}
 
+.mine > img {
+    width: 205px;
+    height: 180px;
+    padding: 15px;
+    margin-left: -19px;
+    border-radius: 15%;
+}
 
+.info {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
 
+.info > img {
+   filter:hue-rotate(100deg) brightness(0.7) saturate(.7) contrast(2.5);
+width: 8px;
+}
 
+.info > p {
+    font-size: 13px;
+    padding: 5px;
+    font-weight: 300px;
+    color: rgb(16, 112, 16) ;
+}
 
+.mine > h5 {
+    font-size: 18;
+    font-weight: 900;
+    text-decoration: none;
+    text-transform: capitalize;
+}
 
+.mine > h6 {
+    font-size: 12px;
+    font-weight: 700;
+}
 
+.mine > button {
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 8px;
+    height: 40px;
+    width: 140px;
+    color:#fff;
+    border: none;
+    background-color: rgb(16, 112, 16);
+    box-shadow: 0 4px 10px rgba(76, 232, 100, 0.3);
+}
 
+.firstimgContent {
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+}
 
+.carsImage {
+    display: flex;
+}
 
+.carsImage > img {
+    width: 260px;
+    height: 190px;
+    padding: 10px;
+}
 
+.badge{
+    position: absolute;
+    right: 160px;
+    display: flex;
+    top: 30px;
+    justify-content: space-between;
+    gap: 160px;
+    filter:hue-rotate(100deg) brightness(0.7) saturate(.7) contrast(2.5); 
+}
+
+.badge > img {
+    width: 160px;
+    margin-right: -72.5px;
+}
+
+.badge > .pb {
+    padding-left: 12.5px;
+    
+}
+ 
+.badge > .pc {
+    padding-left: 25.1px;
+}
+
+.badge > .pd {
+    padding-left: 36.5px;
+}
+
+.logoCars {
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    display: flex;
+    justify-content: space-between;
+    gap: 200px;
+    margin-left: 25px;
+}
+
+.logoCars > img {
+    width: 45px;
+}
+
+.logoCars > .logK {
+}
+
+.reviewUP {
+    top: 230px;
+    position: absolute;
+    right: 200px;
+    display: flex;
+    justify-content: space-between;
+    gap: 200px;
+    filter:hue-rotate(100deg) brightness(0.7) saturate(.7) contrast(2.5); 
+}
+
+.reviewUP > img {
+    width: 40px;
+}
+
+.letterP {
+   display: flex;
+   position: absolute;
+   top: 150px;
+
+}
+
+.theH{
+    display: flex;
+    position: absolute;
+    top: 130px;
+}
 
