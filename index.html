@@ -1,163 +1,643 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Deporsche xpression Cars App</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
     <header>
-        <nav>
-           <div class="innerNav genLayout">
-                <div class="logo">
-                <img src="./assets/logo.png" alt="logo">
+      <nav>
+        <div class="innerNav genLayout">
+          <div class="logo">
+            <img src="./assets/logo.png" alt="logo" />
+          </div>
 
-            </div>
-                
-                <label for="toggle" class="hamburger">&#9776</label>
-                <input type="checkbox" id="toggle">
+          <label for="toggle" class="hamburger">&#9776;</label>
+          <input type="checkbox" id="toggle" />
 
-            <div class="navRight">
-                <h5>
-                  Deliver to:<i class="fa fa-map-marker"></i><span>Current Location</span>
-                        Mohammadpur Bus Stand, Dhaka  
-                </h5>
-            </div>
+          <div class="navRight">
+            <h5>
+              Deliver to:<i class="fa fa-map-marker"></i
+              ><span>Current Location</span>
+              Mohammadpur Bus Stand, Dhaka
+            </h5>
+          </div>
 
-            <div class="navLink">
-                <span><i class="fa fa-search"></i>search Cars</span>
-                <button><i class="fa fa-user"></i>Login</button> 
-            </div>
-           </div> 
-        </nav>
+          <div class="navLink">
+            <span><i class="fa fa-search"></i>search Cars</span>
+            <button><i class="fa fa-user"></i>Login</button>
+          </div>
+        </div>
+      </nav>
     </header>
     <main>
-        <section class="mainBg">
-            <div class="hero genLayout">
-                <div class="heroContent">
-                    <h1>Are you tired of your car?</h1>
-                    <p>Within a few clicks, find the perfect vehicle near you</p>
-                </div>
-                <div class="searchP">
-                    <i class="fa fa-car"><span>Used Cars</span></i>
-                    <i class="fa fa-car"><span>New Cars</span></i>
-                
-                <div class="searchBar">
-                    <i class="fa fa-map-marker"> <input type="text" placeholder="Find Your Dream Car"></i>
-                    <button><i class="fa fa-search"></i>Find Car</button>
-                </div>    
-                </div> 
-                </div>
-                <div class="heroimg">
-                    <img src="./assets/blue car.png" alt="car">
-                </div>
-        </section>
+      <section class="mainBg">
+        <div class="ddCar">
+        <div class="hero genLayout">
+          <div class="heroContent">
+            <h1>Are you tired of your car?</h1>
+            <p>Within a few clicks, find the perfect vehicle near you</p>
+          </div>
+          <div class="searchP">
+            <i class="fa fa-car"><span>Used Cars</span></i>
+            <i class="fa fa-car"><span>New Cars</span></i>
 
-        <section class="realCars">
-                <div class="popularCarContainer genLayout">
-                    <div class="cardContent">
-                    <div class="popularCarCard">
-                        <img src="./assets/rolls royce white.jpg" alt="car">
-                         <div class="carCard">
-                        <h5>Rolls Royce</h5>
-                        <p>6 Days Remaining</p>
-                    </div>
-                    <div class="carPencent">
-                      <h4>15</h4>
-                      <h5>%</h5>
-                      <p>Off</p>  
-                    </div>
-                    </div>
-                
-                    <div class="popularCarCard">
-                        <img src="./assets/cyber truck.jpg" alt="car">
-                        <div class="carCard">
-                        <h5>Rolls Royce</h5>
-                        <p>6 Days Remaining</p>
-                    </div>
-                    <div class="carPencent">
-                      <h4>15</h4>
-                      <h5>%</h5>
-                      <p>Off</p>  
-                    </div>
-                    </div>
-
-                    <div class="popularCarCard">
-                        <img src="./assets/rolls royce white.jpg" alt="car">
-                        <div class="carCard">
-                        <h5>Rolls Royce</h5>
-                        <p>6 Days Remaining</p>
-                    </div>
-                    <div class="carPencent">
-                      <h4>15</h4>
-                      <h5>%</h5>
-                      <p>Off</p>  
-                    </div>
-                    </div>
-                
-                    <div class="popularCarCard">
-                        <img src="./assets/rolls royce white.jpg" alt="car">
-                        <div class="carCard">
-                        <h5>Rolls Royce</h5>
-                        <p>6 Days Remaining</p>
-                    </div>
-                    <div class="carPencent">
-                      <h4>15</h4>
-                      <h5>%</h5>
-                      <p>Off</p>  
-                    </div>
-                    </div>
-                </div>
-                </div>
-        </section>
-
-        <section class="mainBga">
-            <div class="howItWork genLayout">
-                <h2>How does it works</h2>
-                <div class="line">
-                    <div class="carWrapper">
-                        <div class="workimg">
-                             <img src="./assets/locationx.png" alt="location">
-                        </div>
-                        <div class="CarCont">
-                            <h5>Choose Location</h5>
-                            <p>Choose the location where your car will be delivered.</p>
-                        </div> 
-                    </div>
-                    <div class="carWrapper">
-                        <div class="workimg">
-                             <img src="./assets/car icon.png" alt="car">
-                        </div>
-                        <div class="CarCont">
-                            <h5>Choose Location</h5>
-                            <p>Choose the location where your car will be delivered.</p>
-                        </div> 
-                    </div>
-                    <div class="carWrapper">
-                        <div class="workimg">
-                             <img src="./assets/pay.png" alt="photo">
-                        </div>
-                        <div class="CarCont">
-                            <h5>Choose Location</h5>
-                            <p>Choose the location where your car will be delivered.</p>
-                        </div> 
-                    </div>
-                    <div class="carWrapper">
-                        <div class="workimg">
-                             <img src="./assets/tyre.png" alt="location">
-                        </div>
-                        <div class="CarCont">
-                            <h5>Choose Location</h5>
-                            <p>Choose the location where your car will be delivered.</p>
-                        </div> 
-                    </div>
-                </div>
-                </div>
+            <div class="searchBar">
+              <i class="fa fa-map-marker"><input type="text" placeholder=" Find Your Dream Car"></i>
+              <button><i class="fa fa-search"></i> Find Car</button>
             </div>
-        </section>
-    </main>
+          </div>
+        </div>
+        <div class="heroimg">
+          <img src="./assets/blue car.png" alt="car" />
+        </div>
+        </div>
+      </section>
 
-</body>
+      <section class="realCars">
+        <div class="cardContainer">
+          <div class="popularCarContainer genLayout">
+            <div class="cardContent">
+              <div class="popularCarCard">
+                <img src="./assets/rolls royce white.jpg" alt="car" />
+                <div class="carCard">
+                  <h5>Rolls Royce</h5>
+                  <p>6 Days Remaining</p>
+                </div>
+                <div class="carPencent">
+                  <h4>15</h4>
+                  <h5>%</h5>
+                  <p>Off</p>
+                </div>
+              </div>
+
+              <div class="popularCarCard">
+                <img src="./assets/cyber truck.jpg" alt="car" />
+                <div class="carCard">
+                  <h5>Cyber Truck</h5>
+                  <p>6 Days Remaining</p>
+                </div>
+                <div class="carPencent">
+                  <h4>10</h4>
+                  <h5>%</h5>
+                  <p>Off</p>
+                </div>
+              </div>
+
+              <div class="popularCarCard">
+                <img src="./assets/white benz.jpg" alt="car" />
+                <div class="carCard">
+                  <h5>Mercedes Benz</h5>
+                  <p>7 Days Remaining</p>
+                </div>
+                <div class="carPencent">
+                  <h4>25</h4>
+                  <h5>%</h5>
+                  <p>Off</p>
+                </div>
+              </div>
+
+              <div class="popularCarCard">
+                <img src="./assets/lambo blue.jpg" alt="car" />
+                <div class="carCard">
+                  <h5>Lamborghini</h5>
+                  <p>8 Days Remaining</p>
+                </div>
+                <div class="carPencent">
+                  <h4>20</h4>
+                  <h5>%</h5>
+                  <p>Off</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="mainBga">
+        <div class="howItWork genLayout">
+          <h2>How does it works</h2>
+          <div class="line">
+            <div class="carWrapper">
+              <div class="workimg">
+                <img src="./assets/locationx.png" alt="location" />
+              </div>
+              <div class="CarCont">
+                <h5>Choose Location</h5>
+                <p>Choose the location where your car will be delivered.</p>
+              </div>
+            </div>
+            <div class="carWrapper">
+              <div class="workimg">
+                <img src="./assets/car icon.png" alt="car" />
+              </div>
+              <div class="CarCont">
+                <h5>Choose Order</h5>
+                <p>Check over hundreds of cars to pick your favorite car</p>
+              </div>
+            </div>
+            <div class="carWrapper">
+              <div class="workimg">
+                <img src="./assets/pay.png" alt="photo" />
+              </div>
+              <div class="CarCont">
+                <h5>Pay advanced</h5>
+                <p>
+                  It's quick, safe, and simple. Select several methods of
+                  payment.
+                </p>
+              </div>
+            </div>
+            <div class="carWrapper">
+              <div class="workimg">
+                <img src="./assets/tyre.png" alt="location" />
+              </div>
+              <div class="CarCont">
+                <h5>Enjoy the drive</h5>
+                <p>
+                  Premium performance, built to order and delivered straight to
+                  your door.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="pItems">
+        <div class="pWrapper genLayout">
+          <h2>Popular interior</h2>
+          <div class="pContent">
+            <div class="pCard">
+              <div class="pimg">
+                <button><i class="fa fa-angle-left"></i></button>
+                <img src="/assets/lambo interior.jpg" alt="car" />
+              </div>
+              <div class="pTxt">
+                <h5>Lamborghini</h5>
+                <i class="fa fa-map-marker"><span>Car Arena</span></i>
+                <p>$300m</p>
+                <button class="orderP">Order Now</button>
+              </div>
+            </div>
+
+            <div class="pCard">
+              <div class="pimg">
+                <img src="/assets/lambo interior.jpg" alt="car" />
+              </div>
+              <div class="pTxt">
+                <h5>Lamborghini</h5>
+                <i class="fa fa-map-marker"><span>Car Arena</span></i>
+                <p>$300m</p>
+                <button class="orderP">Order Now</button>
+              </div>
+            </div>
+
+            <div class="pCard">
+              <div class="pimg">
+                <img src="/assets/lambo interior.jpg" alt="car" />
+              </div>
+              <div class="pTxt">
+                <h5>Lamborghini</h5>
+                <i class="fa fa-map-marker"><span>Car Arena</span></i>
+                <p>$300m</p>
+                <button class="orderP">Order Now</button>
+              </div>
+            </div>
+
+            <div class="pCard">
+              <div class="pimg">
+                <img src="/assets/lambo interior.jpg" alt="car" />
+              </div>
+              <div class="pTxt">
+                <h5>Lamborghini</h5>
+                <i class="fa fa-map-marker"><span>Car Arena</span></i>
+                <p>$300m</p>
+                <button class="orderP">Order Now</button>
+              </div>
+            </div>
+
+            <div class="pCard">
+              <div class="pimg">
+                <img src="/assets/lambo interior.jpg" alt="car" />
+                <button><i class="fa fa-angle-right"></i></button>
+              </div>
+              <div class="pTxt">
+                <h5>Lamborghini</h5>
+                <i class="fa fa-map-marker"><span>Car Arena</span></i>
+                <p>$300m</p>
+                <button class="orderP">Order Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="featureCompany genLayout">
+          <h2>Feature Company</h2>
+          <div class="fCont">
+            <div class="fRap">
+            <div class="fCard">
+              <img src="./assets/ferrari red.jpg" alt="car" />
+
+              <div class="fContent">
+                <img src="./assets/ferrari logo.jpg" alt="logo" />
+
+                <div class="fTxt">
+                  <h5>Car Arena</h5>
+                  <p>&#9733;46</p>
+                </div>
+              </div>
+
+              <div class="fPt">
+                <p><img src="./assets/Icon (1).png" alt="" />20% off</p>
+              </div>
+              <div class="pTn">
+                <p>&#128337;Fast</p>
+              </div>
+            </div>
+            <div class="fCard">
+              <img src="./assets/ferrari red.jpg" alt="car" />
+
+              <div class="fContent">
+                <img src="./assets/ferrari logo.jpg" alt="logo" />
+
+                <div class="fTxt">
+                  <h5>Car Arena</h5>
+                  <p>&#9733;46</p>
+                </div>
+              </div>
+
+              <div class="fPt">
+                <p><img src="./assets/Icon (1).png" alt="" />20% off</p>
+              </div>
+              <div class="pTn">
+                <p>&#128337;Fast</p>
+              </div>
+            </div>
+            <div class="fCard">
+              <img src="./assets/ferrari red.jpg" alt="car" />
+
+              <div class="fContent">
+                <img src="./assets/ferrari logo.jpg" alt="logo" />
+
+                <div class="fTxt">
+                  <h5>Car Arena</h5>
+                  <p>&#9733;46</p>
+                </div>
+              </div>
+
+              <div class="fPt">
+                <p><img src="./assets/Icon (1).png" alt="" />20% off</p>
+              </div>
+              <div class="pTn">
+                <p>&#128337;Fast</p>
+              </div>
+            </div>
+            <div class="fCard">
+              <img src="./assets/ferrari red.jpg" alt="car" />
+
+              <div class="fContent">
+                <img src="./assets/ferrari logo.jpg" alt="logo" />
+
+                <div class="fTxt">
+                  <h5>Car Arena</h5>
+                  <p>&#9733;46</p>
+                </div>
+              </div>
+
+              <div class="fPt">
+                <p><img src="./assets/Icon (1).png" alt="" />20% off</p>
+              </div>
+              <div class="pTn">
+                <p>&#128337;Fast</p>
+              </div>
+            </div>
+            <div class="fCard">
+              <img src="./assets/ferrari red.jpg" alt="car" />
+
+              <div class="fContent">
+                <img src="./assets/ferrari logo.jpg" alt="logo" />
+
+                <div class="fTxt">
+                  <h5>Car Arena</h5>
+                  <p>&#9733;46</p>
+                </div>
+              </div>
+
+              <div class="fPt">
+                <p><img src="./assets/Icon (1).png" alt="" />20% off</p>
+              </div>
+              <div class="pTn">
+                <p>&#128337;Fast</p>
+              </div>
+            </div>
+            <div class="fCard">
+              <img src="./assets/ferrari red.jpg" alt="car" />
+
+              <div class="fContent">
+                <img src="./assets/ferrari logo.jpg" alt="logo" />
+
+                <div class="fTxt">
+                  <h5>Car Arena</h5>
+                  <p>&#9733;46</p>
+                </div>
+              </div>
+
+              <div class="fPt">
+                <p><img src="./assets/Icon (1).png" alt="" />20% off</p>
+              </div>
+              <div class="pTn">
+                <p>&#128337;Fast</p>
+              </div>
+            </div>
+            <div class="fCard">
+              <img src="./assets/ferrari red.jpg" alt="car" />
+
+              <div class="fContent">
+                <img src="./assets/ferrari logo.jpg" alt="logo" />
+
+                <div class="fTxt">
+                  <h5>Car Arena</h5>
+                  <p>&#9733;46</p>
+                </div>
+              </div>
+
+              <div class="fPt">
+                <p><img src="./assets/Icon (1).png" alt="" />20% off</p>
+              </div>
+              <div class="pTn">
+                <p>&#128337;Fast</p>
+              </div>
+            </div>
+            <div class="fCard">
+              <img src="./assets/ferrari red.jpg" alt="car" />
+
+              <div class="fContent">
+                <img src="./assets/ferrari logo.jpg" alt="logo" />
+
+                <div class="fTxt">
+                  <h5>Car Arena</h5>
+                  <p>&#9733;46</p>
+                </div>
+              </div>
+
+              <div class="fPt">
+                <p><img src="./assets/Icon (1).png" alt="" />20% off</p>
+              </div>
+              <div class="pTn">
+                <p>&#128337;Fast</p>
+              </div>
+              </div>
+            </div>
+          </div>
+          <button cLL>View all <i class="fa fa-angle-right"></i></button>
+        </div>
+      </section>
+
+      <section class="sBg">
+        <div class="searchByCar genLayout">
+          <div class="sFx">
+          <h2>Search By Car</h2>
+          <div class="sBc">
+            <p>view all<span><i class="fa fa-angle-right"></i></p></span>
+            <button class="sbR"><i class="fa fa-angle-left"></i></button>
+            <button class="sbR"><i class="fa fa-angle-right"></i></button>
+          </div>
+          </div>
+          <div class="simg">
+            <span class="sDg">
+            <img src="./assets/black benz.jpg" alt="car">
+            <p>mercedes bens</p>
+            </span>
+            <span class="sDg">
+            <img src="./assets/black benz.jpg" alt="car">
+            <p>mercedes bens</p>
+            </span>
+            <span class="sDg">
+            <img src="./assets/black benz.jpg" alt="car">
+            <p>mercedes bens</p>
+            </span>
+            <span class="sDg">
+            <img src="./assets/black benz.jpg" alt="car">
+            <p>mercedes bens</p>
+            </span>
+            <span class="sDg">
+            <img src="./assets/black benz.jpg" alt="car">
+            <p>mercedes bens</p>
+            </span>
+            <span class="sDg">
+            <img src="./assets/black benz.jpg" alt="car">
+            <p>mercedes bens</p>
+            </span>
+          </div>
+        </div>
+      </section>
+
+      <section class="theDiscount">
+        <div class="daily genLayout">
+          <div class="dGflex">
+          <div class="trace">
+            <span class="mimg"><img src="./assets/daily discount.png" alt="photo" width="70"></span>
+             <h3>Daily Discount</h3>
+             <img src="./assets/HR.png" alt="photo">
+          </div>
+          <div class="trace">
+            <span class="mimg"><img src="./assets/tracing.png" alt="photo" width="70px"></span>
+             <h3>Live Tracing</h3>
+             <img src="./assets/HR.png" alt="photo">
+          </div>
+          <div class="trace">
+            <span class="mimg"><img src="./assets/quick.png" alt="photo" width="70"></span>
+             <h3>Quick Delivery</h3>
+          </div>
+        </div>
+        <div class="mobPlace">
+          <div class="mobPhone">
+            <img src="./assets/phone cont.png" alt="photo">
+            <div class="appTxt">
+              <h2>Install the app</h2>
+              <p>It's never been easier to buy your dream car. Look for the finest discounts and you'll be lost in a world of amazing car.</p>
+            <div class="appStore">
+              <img src="./assets/goggle.png" alt="photo">
+              <img src="./assets/apple.png" alt="photo">
+          </div>
+        </div>
+        </div>
+      </section>
+
+      <section class="bestBg">
+        <div class="bestDeals genLayout">
+          <div class="bestContainer">
+            <div class="firstDeal">
+              <h2><span class="best">Best Deal</span> amazing Mercedes Benz</h2>
+              <p>Enjoy the amazing life of luxury. Complete 
+                perfect car for a wonderful journey.
+              </p>
+              <button class="carB">PROCEED TO ORDER <i class="fa fa-angle-right"></i></button>
+            </div>
+          <div class="carimg">
+            <img src="./assets/black benz.jpg" alt="car">
+          </div>
+        </div>
+          <div class="bestContainer">
+          <div class="dChange">
+            <img src="./assets/black benz.jpg" alt="car">
+          </div>
+          <div class="fChange">
+              <h2><span class="best">Best Deal</span> amazing Mercedes Benz</h2>
+              <p>Enjoy the amazing life of luxury. Complete 
+                perfect car for a wonderful journey.
+              </p>
+              <button class="carB">PROCEED TO ORDER <i class="fa fa-angle-right"></i></button>
+            </div>
+        </div>
+          <div class="bestContainer">
+            <div class="firstDeal">
+              <h2><span class="best">Best Deal</span> amazing Mercedes Benz</h2>
+              <p>Enjoy the amazing life of luxury. Complete 
+                perfect car for a wonderful journey.
+              </p>
+              <button class="carB">PROCEED TO ORDER <i class="fa fa-angle-right"></i></button>
+            </div>
+          <div class="carimg">
+            <img src="./assets/black benz.jpg" alt="car">
+          </div>
+        </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="lastPart">
+          <div class="lFlex">
+            <div class="lContent">
+              <img src="./assets/bblue.png" alt="car">
+              </div>
+            <div class="lTxt">
+              <h2>Are you ready to order with the best deals?</h2>
+              <button>PROCEED TO ORDER <i class="fa fa-angle-right"></i></button>
+            </div>
+            <div class="limg">
+              <img src="./assets/nisred.png" alt="car">
+            </div>
+        </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <section class="footerCities">
+          <h3>Our top cities</h3>
+          <div class="cityCard">
+            <ul>
+              <li>San Francisco</li>
+              <li>Miami</li>
+              <li>San Diego</li>
+              <li>East Bay</li>
+              <li>Long Beach</li>
+            </ul>
+
+            <ul>
+              <li>Los Angeles</li>
+              <li>Washington DC</li>
+              <li>Seattle</li>
+              <li>Portland</li>
+              <li>Nashville</li>
+            </ul>
+            <ul>
+              <li>Chicago</li>
+              <li>Phoenix</li>
+              <li>Las Vegas</li>
+              <li>Sacramento</li>
+              <li>Oklahoma City</li>
+            </ul>
+            <ul>
+              <li>New York City</li>
+              <li>Orange County</li>
+              <li>Atlanta</li>
+              <li>Charlotte</li>
+              <li>Denver</li>
+            </ul>
+            <ul>
+              <li>Columbus</li>
+              <li>New Mexico</li>
+              <li>Albuquerque</li>
+              <li>Sacramento</li>
+              <li>New Orleans</li>
+            </ul>
+          </div>
+        </section>
+
+        <hr class="footerHalf">
+        <div class="footerCard">
+          <div class="fContainer">
+          <div class="companyCard">
+             <h4>Company</h4>
+            <div class="cardsContent">
+          <ul>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Team</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+            </div>
+            </div>
+            <div class="companyCard">
+              <h4>Contact</h4>
+            <div class="cardsContent">
+          <ul>
+            <li><a href="#">Help & Support</a></li>
+            <li><a href="#">Partner with us</a></li>
+            <li><a href="#">Ride with us</a></li>
+          </ul>
+          </div>
+          </div>
+           <div class="companyCard">
+            <h4>Legal</h4>
+            <div class="cardsContent"> 
+          <ul>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Refund & Cancellation</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Cookie Policy</a></li>
+          </ul>
+          </div>
+          </div>
+          
+        <div class="footerSocial">
+          <div class="socialLink">
+            <p>FOLLOW US</p>
+          <div class="icons">
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+          </div>
+        </div>
+        <form class="SocialSub">
+          <p>Receive exclusive offers in your mailbox</p>
+          <input type="email" placeholder="Enter your email">
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+      </div>
+      <hr class="lastLine">
+      <div class="allRight">
+      <div class="hoop">
+      <p>All rights Reserved &copy; <strong>Your Company, 2021</strong></p>
+      </div>
+      <div class="hoop">
+      <p>Made with 💛 by <strong>Kanmz</strong></p>
+    </div>
+    </div>
+    </div>
+      </div>
+    </footer>
+  </body>
 </html>
